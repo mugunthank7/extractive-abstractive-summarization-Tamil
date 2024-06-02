@@ -36,3 +36,16 @@ The project demonstrates the strengths and limitations of each summarization app
 2. Navigate to the project directory:
    ```bash
    cd extractive-abstractive-summarization
+3. Install the required libraries
+   ```bash
+   pip install -r requirements.txt
+
+## Usage
+### Extractive Summarization
+Run the extractive summarization methods from the extractive directory. For example, to run the Jupyter Notebook for extractive summarization:
+   ```bash
+   jupyter notebook extractive/extractive.ipynb
+
+
+
+
