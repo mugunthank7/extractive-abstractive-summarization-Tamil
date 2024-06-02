@@ -33,19 +33,36 @@ The project demonstrates the strengths and limitations of each summarization app
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/extractive-abstractive-summarization.git
+   ```
 2. Navigate to the project directory:
    ```bash
    cd extractive-abstractive-summarization
-3. Install the required libraries
+   ```
+3. Install the required libraries:
    ```bash
    pip install -r requirements.txt
+   ```
 
 ## Usage
+
 ### Extractive Summarization
-Run the extractive summarization methods from the extractive directory. For example, to run the Jupyter Notebook for extractive summarization:
+Run the extractive summarization methods from the `extractive` directory. For example, to run the Jupyter Notebook for extractive summarization:
    ```bash
    jupyter notebook extractive/extractive.ipynb
+   ```
+
+### Abstractive Summarization
+Run the fine-tuning scripts from the `abstractive` directory. For example, to fine-tune mT5:
+   ```bash
+   python abstractive/fine_tune_mt5.py
+   ```
+
+## Results
+Results and visualizations are saved in the `results` directory.
 
 
 
+## Acknowledgments
+This project was developed with guidance and support from Sachin Kumar S and the Department of AI at Amrita Vishwa Vidyapeetham, Coimbatore.
+```
 
